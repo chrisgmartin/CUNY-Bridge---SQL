@@ -109,3 +109,4 @@ LEFT JOIN groups g
 ON u.groupID = g.groupID
 LEFT JOIN rooms r
 ON g.roomID = r.roomID
+ORDER BY u.username, g.groupname, r.roomname
